@@ -4,29 +4,29 @@ public class QueryOrder {
 
     private int id;
 
-    private String name;
-
-    public int getId() {
-        return id;
-    }
+    private String information;
 
     public void setId(int id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public void setInformation(String information) {
+        this.information = information;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getId() {
+        return id;
+    }
+
+    public String getInformation() {
+        return information;
     }
 
     @Override
     public String toString() {
         return "QueryOrder{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name='" + information + '\'' +
                 '}';
     }
 }
