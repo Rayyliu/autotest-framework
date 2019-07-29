@@ -1,4 +1,4 @@
-package com.autotest.test;
+package com.autotest.test.borrowerauth;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

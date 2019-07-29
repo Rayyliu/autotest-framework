@@ -24,7 +24,7 @@ public class TestBase {
         String pwd = Md5SHA1Util.md5(password);
         String url = "http://127.0.0.1:8079/sc/borrower/auth/!/login/bypwd?way=json";
         HttpHeaders header = new HttpHeaders();
-        header.add("Accept", "application/json;charset=UTF-8");
+//        header.add("Accept", "application/json;charset=UTF-8");
         header.add("Content-Type", "application/json");
         Map<Object, Object> dataMap = new HashMap<Object, Object>();
         dataMap.put("mobile",mobile);
