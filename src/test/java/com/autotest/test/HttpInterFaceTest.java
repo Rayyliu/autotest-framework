@@ -1,13 +1,14 @@
 package com.autotest.test;
 
 import com.autotest.annotation.AutoTest;
+import com.autotest.base.SpringBootTestBase;
 import com.autotest.example.QueryOrder;
 import com.autotest.example.QueryUserFacade;
 import com.autotest.example.UserResult;
 
 import javax.annotation.Resource;
 
-public class HttpInterFaceTest {
+public class HttpInterFaceTest extends SpringBootTestBase {
 
     @Resource
     QueryUserFacade queryUserFacade;
